@@ -6,18 +6,25 @@ body{
 	background-color: #011e29;
 	color:white;
 	text-align:center;
+	padding:20px;
+	margin:10px;
 }
 .latest-news-section{
-	width:500px;
-	height:200px
+	width:150px;
+	padding:50px;
+	background-color:white;
+	border-radius:30px;
 	}
 .Main-article{
-	.latest-news-section{
-	width:500px;
-	height:200px
+	width:150px;
+	padding:50px;
+	background-color:white;
+	border-radius:30px;
 	}
-.img{
-	width:500px;
-	height:200px
-	}
-}
+.Pictorial-news-section,img{
+	width:150px;
+	background-color:white;
+	margin:20px;
+	display: flex; 
+  flex-direction: column; 
+		}
