@@ -1,4 +1,8 @@
 /*  your css code here. If applicable */
+.main{
+	display:flex;
+	justify-content:space-between;
+}
 body{
 	background-color: #f5f5f5
 }
@@ -8,23 +12,27 @@ body{
 	text-align:center;
 	padding:20px;
 	margin:10px;
+	
 }
 .latest-news-section{
-	width:150px;
 	padding:50px;
 	background-color:white;
 	border-radius:30px;
+	height:550px;
 	}
 .Main-article{
-	width:150px;
 	padding:50px;
 	background-color:white;
 	border-radius:30px;
+	height:550px;
 	}
-.Pictorial-news-section,img{
-	width:150px;
+.pictorial-news-section,img{
 	background-color:white;
 	margin:20px;
 	display: flex; 
   flex-direction: column; 
+	height:550px;
 		}
+img{
+	height:120px
+}
