@@ -18,21 +18,25 @@ body{
 	padding:50px;
 	background-color:white;
 	border-radius:30px;
-	height:550px;
+	height:250px;
 	}
 .Main-article{
 	padding:50px;
 	background-color:white;
 	border-radius:30px;
-	height:550px;
+	height:250px;
 	}
 .pictorial-news-section,img{
 	background-color:white;
 	margin:20px;
 	display: flex; 
   flex-direction: column; 
-	height:550px;
+	height:450px;
 		}
 img{
-	height:120px
+	height:80px
 }
+
+
+
+
